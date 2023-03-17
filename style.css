@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(7, 46, 48);
+}
+h1{
+    color: #fff;
+}
+label{
+    color: beige;
+}
+.bio{
+    margin-top: 40px;
+}
+.container{
+    background: rgb(16, 29, 18);
+    padding: 10px 15px;
+    height: 425px;
+    width: 50%;
+    border-radius: 30px;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+}
+button{
+    padding: 5px 10px; 
+    border-radius: 5px;
+}
+input,textarea{
+    width: 50%;
+    height: 20px;
+    border-radius: 5px;
+}
+.submited{
+    margin-top: 260px;
+}
+@media(max-width:545px){
+    .container{
+        width: 70%;
+    }
+}
+    
